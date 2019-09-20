@@ -31,4 +31,8 @@ $("#form").submit((event)=>{
     }).fail((error)=>{
         alert("não foi possível enviar a mensagem");
     })
+
+    $('#form').each (function(){
+        this.reset();
+      });
 })
