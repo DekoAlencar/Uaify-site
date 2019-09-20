@@ -1,0 +1,124 @@
+.header-img{
+    background: url('../img/blur-blurry-coffee-273222.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    margin-top: 0px;
+}
+
+.contato{
+    background: url('../img/blur-blurry-coffee-273222.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer{
+    background: #ff9201;
+    height: 300px;
+    padding: 40px;
+}
+
+
+.bg-nav{
+    background: #ffffff;
+}
+
+.contato .container{
+    background: #ffffff;
+}
+
+.caption{
+    margin-top: 20px;   
+    font-size: 20px;
+}
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar .navbar-brand{
+    padding: 0px;
+    margin: 0px;
+}
+
+.home{
+    margin: 100px 0px 0px 0px;
+}
+
+.center{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card .card-body{
+    padding: 8px;
+}
+
+div.col-md-3 p{
+    margin-top: 15px;
+}
+
+.btn-circle.btn-xl {
+    margin: -55px auto 0px auto;
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #707070;
+    border: #707070 solid 2px;
+}
+
+.final div.row{
+    padding-bottom: 70px;   
+}
+
+.btn.btn-warning{
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 30px 20px 30px 20px;
+}
+
+#map-canvas {
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    bottom: -200px; 
+    left: 0; 
+    right: 0; 
+    z-index: 0;
+  }
+
+ul {
+    display: inline;
+    color: #ffffff;
+    font-size: 14px;
+       
+}
+
+.footer a{
+    color: #ffffff;
+    cursor: default;
+}
+
+.alert-border{
+    border: red solid;
+}
