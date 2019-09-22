@@ -4,9 +4,15 @@ $(document).ready(function() {
 });
 
 $(document).scroll(function(){
-    if($(document).scrollTop()>600){
+    height = getDimensao($(document).width());
+    heightScroll = $(document).scrollTop();
+    if(heightScroll > height){
         $("nav").addClass('bg-nav');
     }else{
         $("nav").removeClass('bg-nav');
     }
 });
+
+function getDimensao(width){
+    return width>500 ? 600 : 150;
+}
